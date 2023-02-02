@@ -1,0 +1,7 @@
+{
+	"dockerComposeFile": "../docker-compose.yaml",
+	"service": "cv",
+	"workspaceFolder": "/cv",
+	"shutdownAction": "stopCompose",
+	"extensions": ["svelte.svelte-vscode", "stuart.unique-window-colors", "bradlc.vscode-tailwindcss"]
+}
