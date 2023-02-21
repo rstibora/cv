@@ -5,7 +5,7 @@
 
 
 <div class="bg-zinc-300 text-stone-800">
-    <div class="sticky top-0 flex justify-between h-16 p-4 bg-inherit border-b-2 border-solid border-stone-800">
+    <div class="sticky top-0 flex justify-between h-16 p-4 bg-inherit border-b-2 border-solid border-stone-800 z-10">
         <div class="hidden md:block">
             <a class="text-2xl mx-2 hover:underline decoration-8 decoration-sharp-yellow" href="#about">about</a>
             <a class="text-2xl mx-2 hover:underline decoration-8 decoration-sharp-yellow" href="#expertise">expertise</a>
@@ -17,14 +17,23 @@
         </div>
     </div>
 
-    <div class="flex justify-center flex-wrap bg-sharp-yellow text-zinc-300 pt-2">
-        <div class="text-8xl lg:text-9xl font-semibold">Radek</div>
-        <div class="text-8xl lg:text-9xl font-semibold mx-6">Stibora</div>
+    <div class="flex justify-center bg-sharp-yellow text-zinc-300">
+        <div class="flex flex-row justify-center lg:justify-between w-[60rem] py-8">
+            <div class="flex flex-col">
+                <div class="text-[105px] lg:text-[115px] leading-none font-bold first-letter:ml-[-0.04em] text-center">
+                    Radek Stibora
+                </div>
+                <div class="text-3xl font-bold text-center md:text-left">
+                    software engineer
+                </div>
+                <div class="flex justify-center my-4">
+                    <img class="md:hidden w-40 h-40 border-solid border-2 rounded-full saturate-0 brightness-95 contrast-75" src="portrait.png ">
+                </div>
+            </div>
+            <img class="hidden lg:block w-40 h-40 border-solid border-2 rounded-full saturate-0 brightness-95 contrast-75" src="portrait.png ">
+        </div>
     </div>
 
-    <div class="flex justify-center text-3xl font-semibold mb-40 bg-sharp-yellow text-zinc-300 py-2">
-        software engineer
-    </div>
 
     <div class="flex flex-col items-center mx-4">
         <div class="w-full lg:w-[60rem]">
@@ -58,12 +67,12 @@
             <div id="cv" class="my-12">
                 <div class="text-3xl font-semibold pt-16 -mt-16 border-b-2 border-solid border-stone-800">cv</div>
                 <div class="flex flex-col lg:flex-row w-full text-lg my-2">
-                    <h2 class="lg:basis-52 shrink-0">Past Experience</h2>
+                    <h2 class="lg:basis-52 shrink-0 font-semibold">Past Experience</h2>
                     <div>
                         <div class="my-2 first-of-type:my-0">
-                            <div class=""><span class="">Seznam.cz a.s.</span> | Programmer</div>
+                            <div class="border-b-2 border-solid border-stone-800"><span class="font-semibold">Seznam.cz a.s.</span> | Programmer</div>
                             <div class="my-2">12/2022 (terminated after two weeks due to budget constraints)</div>
-                            <ul>
+                            <ul class="list-disc">
                                 <li class="ml-4">
                                     CDN Development
                                     <ul>
@@ -74,12 +83,12 @@
                         </div>
 
                         <div class="my-2 first-of-type:my-0">
-                            <div class=""><span class="">ThermoFisher Scientific</span> | Software Engineer</div>
+                            <div class="border-b-2 border-solid border-stone-800"><span class="font-semibold">ThermoFisher Scientific</span> | Software Engineer</div>
                             <div class="my-2">8/2017 - 4/2022</div>
                             <ul>
                                 <li class="ml-4">
                                     Development of various electron microscope alignment algorithms (1/2019 - 4/2022)
-                                    <ul>
+                                    <ul class="list-disc">
                                         <li class="ml-4">
                                             Cooperation within a diverse (as in specialization wise) team developing
                                             alignment algorithms for various parts of electron microscopes.
@@ -110,7 +119,7 @@
                         </div>
 
                         <div class="my-2 first-of-type:my-0">
-                            <div class=""><span class="">Systek SWHW s.r.o.</span> | Programmer</div>
+                            <div class="border-b-2 border-solid border-stone-800"><span class="font-semibold">Systek SWHW s.r.o.</span> | Programmer</div>
                             <div class="my-2">10/2016 - 8/2017</div>
                             <ul>
                                 <li class="ml-4">
@@ -125,9 +134,9 @@
                 </div>
 
                 <div class="flex flex-col lg:flex-row w-full text-lg my-2">
-                    <h2 class="lg:basis-52 shrink-0">Education</h2>
+                    <h2 class="lg:basis-52 shrink-0 font-semibold">Education</h2>
                     <div class="">
-                        <div class=""><span class="">Masaryk University, Faculty of Informatics</span> | Brno, Czech Republic</div>
+                        <div class="border-b-2 border-solid border-stone-800"><span class="font-semibold">Masaryk University, Faculty of Informatics</span> | Brno, Czech Republic</div>
                         <div class="my-2">2011 - 2016</div>
                         <ul>
                             <li class="ml-4">
