@@ -60,6 +60,8 @@
         </div>
     </div>
 
+    <div class="sticky top-16 w-full bg-sharp-yellow h-1" />
+
 
     <div class="flex flex-col items-center mx-4">
         <div class="w-full lg:w-[60rem]">
@@ -68,7 +70,9 @@
                 <div class="flex flex-col lg:flex-row w-full text-lg my-2">
                     <div class="hidden lg:block lg:basis-52 shrink-0" />
                     <div class="text-lg">
-                        I am a software engineer with passion for perpetual learning and improvement.
+                        I am a software engineer with passion for perpetual learning and improvement.<br /><br />
+                        I believe that fundamental knowledge and underlaying principles are more important than the actual programming language/fancy framework/tool used.<br /><br />
+                        Code wise, I always strive to produce artifacts that are easy to understand, robust, architecturally sound and as efficient as possible.
                     </div>
                 </div>
             </div>
@@ -129,7 +133,7 @@
                             <div class="my-2">8/2017 - 4/2022</div>
                             <ul class="list-disc">
                                 <li class="ml-4">
-                                    Development of various electron microscope alignment algorithms (1/2019 - 4/2022)
+                                    Development of electron microscope algorithms, apps and frameworks (1/2019 - 4/2022)
                                     <ul class="list-disc">
                                         <li class="ml-4">
                                             Cooperation within a diverse (as in specialization wise) team developing
