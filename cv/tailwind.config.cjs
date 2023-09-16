@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "sharp-yellow": "#FFF073"
+        "sharp-yellow": "#FFFB63"
       },
       fontFamily: {
         "serif": ["Merriweather", ...defaultTheme.fontFamily.serif],

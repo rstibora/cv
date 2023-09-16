@@ -1,6 +1,9 @@
 <svelte:head>
-    <title>Radek Stibora</title>
-    <meta name="description" content="Online presentation of Radek Stibora, a software engineer specialized in Python, Typescript, Docker and other technologies.">
+    <title>Radek Stibora | Software Engineer</title>
+    <meta
+        name="description"
+        content="Online presentation of Radek Stibora, a software engineer specialized in Python, Typescript, Docker and other technologies."
+    >
 </svelte:head>
 
 
@@ -31,9 +34,9 @@
         <div class="flex flex-row justify-center lg:justify-between w-[60rem] pt-8 pb-4">
             <div class="flex flex-col">
                 <div class="text-[105px] lg:text-[115px] leading-none font-bold first-letter:ml-[-0.04em] text-center">
-                    <h1>Radek Stibora</h1>
+                    <h1 class="">Radek Stibora</h1>
                 </div>
-                <div class="text-2xl font-bold text-center md:text-left">
+                <div class="text-2xl font-bold text-center md:text-left tracking-wide upper">
                     <h2>software engineer</h2>
                 </div>
                 <div class="flex justify-center my-4">
@@ -66,7 +69,9 @@
     <div class="flex flex-col items-center mx-4">
         <div class="w-full lg:w-[60rem]">
             <div id="about" class="my-12">
-                <div class="text-3xl font-semibold pt-16 -mt-16 border-b-2 border-solid border-stone-800">about</div>
+                <div class="text-3xl font-semibold pt-16 -mt-16 border-b-2 border-solid border-stone-800">
+                    <h3>about</h3>
+                </div>
                 <div class="flex flex-col lg:flex-row w-full text-lg my-2">
                     <div class="hidden lg:block lg:basis-52 shrink-0" />
                     <div class="text-lg">
@@ -78,21 +83,23 @@
             </div>
 
             <div id="expertise" class="my-12">
-                <div class="text-3xl font-semibold pt-16 -mt-16 border-b-2 border-solid border-stone-800">expertise</div>
+                <div class="text-3xl font-semibold pt-16 -mt-16 border-b-2 border-solid border-stone-800">
+                    <h3>expertise</h3>
+                </div>
                 <div class="flex flex-col lg:flex-row w-full text-lg my-2">
-                    <h2 class="lg:basis-52 shrink-0 font-semibold">strong</h2>
+                    <div class="lg:basis-52 shrink-0 font-semibold">strong</div>
                     <div class="">
                         Python, Typescript, Docker, Svelte
                     </div>
                 </div>
                 <div class="flex flex-col lg:flex-row w-full text-lg my-2">
-                    <h2 class="lg:basis-52 shrink-0 font-semibold">mediocre</h2>
+                    <div class="lg:basis-52 shrink-0 font-semibold">mediocre</div>
                     <div class="">
                         C++, CUDA, C#, Postgres, GraphQL, Vue
                     </div>
                 </div>
                 <div class="flex flex-col lg:flex-row w-full text-lg my-2">
-                    <h2 class="lg:basis-52 shrink-0 font-semibold">"played with"</h2>
+                    <div class="lg:basis-52 shrink-0 font-semibold">"played with"</div>
                     <div class="">
                         Rust, Scala, Redis
                     </div>
@@ -101,7 +108,9 @@
 
             <div id="cv" class="my-12">
                 <div class="flex justify-between pt-16 -mt-16 border-b-2 border-solid border-stone-800">
-                    <div class="text-3xl font-semibold ">cv</div>
+                    <div class="text-3xl font-semibold ">
+                        <h3>cv</h3>
+                    </div>
                     <div class="flex flex-col-reverse">
                         <a
                             href="cv.pdf"
@@ -113,7 +122,7 @@
                     </div>
                 </div>
                 <div class="flex flex-col lg:flex-row w-full text-lg my-2">
-                    <h2 class="lg:basis-52 shrink-0 font-semibold">past experience</h2>
+                    <h4 class="lg:basis-52 shrink-0 font-semibold">past experience</h4>
                     <div>
                         <div class="my-4 first-of-type:my-0">
                             <div class="border-b-2 border-solid border-stone-800"><span class="font-semibold">Seznam.cz a.s.</span> | Programmer</div>
@@ -180,7 +189,7 @@
                 </div>
 
                 <div class="flex flex-col lg:flex-row w-full text-lg my-2">
-                    <h2 class="lg:basis-52 shrink-0 font-semibold">education</h2>
+                    <h4 class="lg:basis-52 shrink-0 font-semibold">education</h4>
                     <div class="">
                         <div class="border-b-2 border-solid border-stone-800"><span class="font-semibold">Masaryk University, Faculty of Informatics</span> | Brno, Czech Republic</div>
                         <div class="my-2">2011 - 2016</div>
