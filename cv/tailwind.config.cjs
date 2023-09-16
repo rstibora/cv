@@ -9,7 +9,6 @@ module.exports = {
         "sharp-yellow": "#FFFB63"
       },
       fontFamily: {
-        "serif": ["Merriweather", ...defaultTheme.fontFamily.serif],
         "sans": ["Helvetica", ...defaultTheme.fontFamily.sans]
       }
     },
